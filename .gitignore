@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab / data
+sample_data/
+data/*.parquet
+data/*.bin
+data/*.idx
+
+# Checkpoints
+*.ckpt
+*.pt
+*.pth
+logs/
+checkpoints/
+
+# Tokenizer (keep json if tracked)
+# anthor_tokenizer.json
